@@ -1,8 +1,10 @@
-name: make_lint
+name: linter-check
 on: push
 jobs:
   my-job:
     runs-on: macos-latest
     steps:
       - name: my-step
-        run: make lint
+        run: |
+        pip install poetry
+        make lint
