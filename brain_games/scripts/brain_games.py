@@ -10,7 +10,7 @@ def main():
     print(greeting)
 
 
-welcome_user()
+print(welcome_user())
 
 
 if __name__ == '__main__':
