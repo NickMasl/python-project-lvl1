@@ -27,16 +27,18 @@ def ask_even():
     print(start_game())
     right_message = 'Correct!'
     win_message = 'Congratulations, {}!'.format(name)
-    i = 0 
+    i = 0
     while i < 3:
         random_number = randint(1, 100)
+
         def ask_question():
             return 'Question: {}'.format(random_number)
         print(ask_question())
         answer = prompt.string('Your answer: ')
+
         def is_even(random_number):
             return 'yes' if random_number % 2 == 0 else 'no'
-        wrong_message = "'{}' is wrong answer ;(. Correct answer was '{}'.\nLet's try again, {}!".format(answer, is_even(random_number), name)
+        wrong_message = ("'{}' is wrong answer ;(. Correct answer was '{}'.\nLet's try again, {}!").format(answer, is_even(random_number), name)  # noqa: E501
         if is_even(random_number) == answer:
             print(right_message)
         else:
