@@ -11,6 +11,9 @@ def main():
     return greeting
 
 
+print(main())
+
+
 name = prompt.string('May I have your name? ')
 
 
