@@ -3,6 +3,6 @@
 
 [![Maintainability](https://api.codeclimate.com/v1/badges/9606ee203b833c4f0d28/maintainability)](https://codeclimate.com/github/NickMasl/python-project-lvl1/maintainability)
 
-[![Linter-check](https://github.com/NickMasl/python-project-lvl1/workflows/make_lint/badge.svg)](https://github.com/NickMasl/python-project-lvl1/actions)
+[![Linter-check](https://github.com/NickMasl/python-project-lvl1/workflows/linter-check/badge.svg)](https://github.com/NickMasl/python-project-lvl1/actions/workflows/make_lint.yml)
 
 https://asciinema.org/a/n4XCRNAmL5uGXCDjR60EvjZ4X
