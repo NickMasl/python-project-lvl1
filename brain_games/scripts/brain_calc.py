@@ -24,7 +24,7 @@ def welcome_user():
 print(welcome_user())
 
 
-def ask_even():
+def ask_even():  # noqa: C901
     def start_game():
         return 'What is the result of the expression?'
     print(start_game())
@@ -33,7 +33,7 @@ def ask_even():
     i = 0
     while i < 3:
         rd1 = randint(1, 10)
-        rd2 = randint(1,10)
+        rd2 = randint(1, 10)
         operator = choice('+-*')
 
         def ask_question():
@@ -48,9 +48,9 @@ def ask_even():
                 return rd1 - rd2
             elif operator == '*':
                 return rd1 * rd2
-        
-        wrong_message = ("'{}' is wrong answer ;( Correct answer was {}.\n Let's try again, '{}'!").format(answer, solve(), name)
-        
+
+        wrong_message = ("'{}' is wrong answer ;( Correct answer was {}.\n Let's try again, '{}'!").format(answer, solve(), name)  # noqa: E501
+
         if solve() == int(answer):
             print(right_message)
         else:
@@ -58,7 +58,7 @@ def ask_even():
         i = i + 1
     return win_message
 
-     
+
 print(ask_even())
 
 
