@@ -49,7 +49,7 @@ def ask_even():  # noqa: C901
             elif operator == '*':
                 return rd1 * rd2
 
-        wrong_message = ("'{}' is wrong answer ;( Correct answer was {}.\n Let's try again, '{}'!").format(answer, solve(), name)  # noqa: E501
+        wrong_message = ("'{}' is wrong answer ;( Correct answer was '{}'.\n Let's try again, '{}'!").format(answer, solve(), name)  # noqa: E501
 
         if solve() == int(answer):
             print(right_message)
