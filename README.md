@@ -5,5 +5,10 @@
 
 [![Linter-check](https://github.com/NickMasl/python-project-lvl1/workflows/linter-check/badge.svg)](https://github.com/NickMasl/python-project-lvl1/actions/workflows/make_lint.yml)
 
-Brain-even game: https://asciinema.org/a/n4XCRNAmL5uGXCDjR60EvjZ4X
-Brain-calc game: https://asciinema.org/a/hOtoRAdhZeFrjUNl2etJfxSyZ
+Brain-even game: https://asciinema.org/a/KJAfFwxcjem7rSyv7yEvExG69
+
+Brain-calc game: https://asciinema.org/a/kFfERqqrrwJauOSd15YY126Z4
+
+Brain-gcd game: https://asciinema.org/a/4E56oYWH1KDQzbO1IKrM7B4Ry
+
+Brain-progression game: https://asciinema.org/a/Qf8WyaMv6Rq8grus0DMV1JTOW
