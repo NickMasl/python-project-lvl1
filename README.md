@@ -3,7 +3,7 @@
 ### This is the most desirable set of games in 2k22!
 This set of games is recommended for gamers of all ages and education levels.
 
-### Here are games you can play:
+### Here is the list of games you can play:
 - Odd or even?
 - Calculator game!
 - Greatest common divisor of two numbers!
