@@ -11,12 +11,12 @@ def is_prime(number):
     i = 2
     while i < new_number:
         if new_number % i == 0:
-            return 'no'
+            return False
         i = i + 1
-    return 'yes'
+    return True
 
 
 def get_question_and_answer():
     question = randint(1, 1000)
-    correct_answer = 'yes' if is_prime(question) == 'yes' else 'no'
+    correct_answer = 'yes' if is_prime(question) else 'no'
     return question, correct_answer
