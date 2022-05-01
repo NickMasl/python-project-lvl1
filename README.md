@@ -12,3 +12,5 @@ Brain-calc game: https://asciinema.org/a/kFfERqqrrwJauOSd15YY126Z4
 Brain-gcd game: https://asciinema.org/a/4E56oYWH1KDQzbO1IKrM7B4Ry
 
 Brain-progression game: https://asciinema.org/a/Qf8WyaMv6Rq8grus0DMV1JTOW
+
+Brain-prime game: https://asciinema.org/a/0qOhTcxdDDJgIebLGYnI1hmkN
