@@ -1,24 +1,29 @@
-Welcome to Brain Games!
+## Welcome to Brain Games!
 
-This is the most desirable set of games in 2k22!
-This set of games is recoommended for gamers of all ages and education levels.
+### This is the most desirable set of games in 2k22!
+This set of games is recommended for gamers of all ages and education levels.
 
-Here are games you can play:
+### Here are games you can play:
 - Odd or even?
 - Calculator game!
 - Greatest common divisor of two numbers!
-- Guess the missing bumber!
+- Guess the missing number!
 - Prime or not?
 
-Brain-even game: https://asciinema.org/a/KJAfFwxcjem7rSyv7yEvExG69
+Example of Odd-Even game:
+[![asciicast](https://asciinema.org/a/KJAfFwxcjem7rSyv7yEvExG69.svg)](https://asciinema.org/a/KJAfFwxcjem7rSyv7yEvExG69)
 
-Brain-calc game: https://asciinema.org/a/kFfERqqrrwJauOSd15YY126Z4
+Example of Calculator game:
+[![asciicast](https://asciinema.org/a/kFfERqqrrwJauOSd15YY126Z4.svg)](https://asciinema.org/a/kFfERqqrrwJauOSd15YY126Z4)
 
-Brain-gcd game: https://asciinema.org/a/4E56oYWH1KDQzbO1IKrM7B4Ry
+Example of GCD game:
+[![asciicast](https://asciinema.org/a/4E56oYWH1KDQzbO1IKrM7B4Ry.svg)]((https://asciinema.org/a/4E56oYWH1KDQzbO1IKrM7B4Ry)
 
-Brain-progression game: https://asciinema.org/a/Qf8WyaMv6Rq8grus0DMV1JTOW
+Example of Guess the missing number game:
+[![asciicast](https://asciinema.org/a/Qf8WyaMv6Rq8grus0DMV1JTOW.svg)](https://asciinema.org/a/Qf8WyaMv6Rq8grus0DMV1JTOW)
 
-Brain-prime game: https://asciinema.org/a/0qOhTcxdDDJgIebLGYnI1hmkN
+Example of Prime-or-not game:
+[![asciicast](https://asciinema.org/a/0qOhTcxdDDJgIebLGYnI1hmkN.svg)](https://asciinema.org/a/0qOhTcxdDDJgIebLGYnI1hmkN)
 
 
 ### Hexlet tests and linter status:
