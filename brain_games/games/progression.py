@@ -18,6 +18,6 @@ def get_question_and_answer():
     for i, number in enumerate(progression):
         if number == missing_number:
             progression[i] = str('..')
-    question = '{}'.format(progression)
+    question = ' '.join(progression)
     correct_answer = str(missing_number)
     return question, correct_answer
