@@ -20,7 +20,7 @@ Example of GCD game:
 [![asciicast](https://asciinema.org/a/4E56oYWH1KDQzbO1IKrM7B4Ry.svg)](https://asciinema.org/a/4E56oYWH1KDQzbO1IKrM7B4Ry)
 
 Example of Guess the missing number game:
-[![asciicast](https://asciinema.org/a/Qf8WyaMv6Rq8grus0DMV1JTOW.svg)](https://asciinema.org/a/Qf8WyaMv6Rq8grus0DMV1JTOW)
+[![asciicast](https://asciinema.org/a/8dklqvQIolNQNFwO2uqA2cLeX.svg)](https://asciinema.org/a/8dklqvQIolNQNFwO2uqA2cLeX)
 
 Example of Prime-or-not game:
 [![asciicast](https://asciinema.org/a/0qOhTcxdDDJgIebLGYnI1hmkN.svg)](https://asciinema.org/a/0qOhTcxdDDJgIebLGYnI1hmkN)
