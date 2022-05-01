@@ -17,7 +17,7 @@ Example of Calculator game:
 [![asciicast](https://asciinema.org/a/kFfERqqrrwJauOSd15YY126Z4.svg)](https://asciinema.org/a/kFfERqqrrwJauOSd15YY126Z4)
 
 Example of GCD game:
-[![asciicast](https://asciinema.org/a/4E56oYWH1KDQzbO1IKrM7B4Ry.svg)]((https://asciinema.org/a/4E56oYWH1KDQzbO1IKrM7B4Ry)
+[![asciicast](https://asciinema.org/a/4E56oYWH1KDQzbO1IKrM7B4Ry.svg)](https://asciinema.org/a/4E56oYWH1KDQzbO1IKrM7B4Ry)
 
 Example of Guess the missing number game:
 [![asciicast](https://asciinema.org/a/Qf8WyaMv6Rq8grus0DMV1JTOW.svg)](https://asciinema.org/a/Qf8WyaMv6Rq8grus0DMV1JTOW)
