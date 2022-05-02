@@ -9,8 +9,7 @@ def run_game(game):
     name = prompt.string('May I have your name? ')
     print('Hello, {}!'.format(name))
     print(game.GAME_RULES)
-    i = 0
-    while i < NUMBER_OF_ROUNDS:
+    for currect_round in range(NUMBER_OF_ROUNDS):
         question, correct_answer = game.get_question_and_answer()
         print('Question: {}'.format(question))
         answer = prompt.string('Your answer: ')
@@ -19,5 +18,4 @@ def run_game(game):
         else:
             print("'{}' is wrong answer ;( Correct answer was '{}'.\nLet's try again, {}!".format(answer, correct_answer, name))  # noqa: E501
             return
-        i = i + 1
     print('Congratulations, {}!'.format(name))
