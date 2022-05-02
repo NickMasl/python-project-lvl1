@@ -1,4 +1,4 @@
-from random import randint, choice
+from random import randint
 
 
 GAME_RULES = 'What number is missing in the progression?'
@@ -14,10 +14,9 @@ def get_question_and_answer():
         progression.append(str(start + step))
         start = start + step
         i = i + 1
-    missing_number = choice(progression)
-    for i, number in enumerate(progression):
-        if number == missing_number:
-            progression[i] = str('..')
+    random_index = randint(0, (len(progression) - 1))
+    missing_number = progression[random_index]
+    progression[random_index] = str('..')
     question = ' '.join(progression)
-    correct_answer = str(missing_number)
+    correct_answer = missing_number
     return question, correct_answer
