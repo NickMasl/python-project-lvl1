@@ -1,4 +1,5 @@
 from random import randint
+from math import sqrt
 
 
 GAME_RULES = 'Answer "yes" if given number is prime. Otherwise answer "no".'
@@ -7,8 +8,10 @@ GAME_RULES = 'Answer "yes" if given number is prime. Otherwise answer "no".'
 def is_prime(number):
     if number == 0:
         return False
+    if number == 1:
+        return False
     i = 2
-    while i < number:
+    while i <= sqrt(number):
         if number % i == 0:
             return False
         i = i + 1
