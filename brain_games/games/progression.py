@@ -9,11 +9,9 @@ def get_question_and_answer():
     steps = randint(7, 12)
     step = randint(2, 5)
     progression = [str(start)]
-    i = 0
-    while i <= steps:
+    for _ in range(steps):
         progression.append(str(start + step))
         start = start + step
-        i = i + 1
     random_index = randint(0, (len(progression) - 1))
     missing_number = progression[random_index]
     progression[random_index] = str('..')
