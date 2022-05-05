@@ -6,15 +6,11 @@ GAME_RULES = 'Answer "yes" if given number is prime. Otherwise answer "no".'
 
 
 def is_prime(number):
-    if number == 0:
+    if number <= 1:
         return False
-    if number == 1:
-        return False
-    i = 2
-    while i <= sqrt(number):
-        if number % i == 0:
+    for divisor in range(2, int(sqrt(number)) + 1):
+        if number % divisor == 0:
             return False
-        i = i + 1
     return True
 
 
