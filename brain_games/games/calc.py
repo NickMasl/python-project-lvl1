@@ -8,13 +8,12 @@ def get_question_and_answer():
     operator = choice('+-*')
     random_number1 = randint(1, 10)
     random_number2 = randint(1, 10)
-    question = '{} {} {}'.format(random_number1, operator, random_number2)
+    question = f'{random_number1} {operator} {random_number2}'
+    correct_answer = ''
     if operator == '+':
         correct_answer = str(random_number1 + random_number2)
-        return question, correct_answer
-    if operator == '-':
+    elif operator == '-':
         correct_answer = str(random_number1 - random_number2)
-        return question, correct_answer
-    if operator == '*':
+    elif operator == '*':
         correct_answer = str(random_number1 * random_number2)
-        return question, correct_answer
+    return question, correct_answer
